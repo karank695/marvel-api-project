@@ -1,0 +1,25 @@
+.body{
+    overflow-x: hidden;
+}
+.col img{
+    height:180px;
+}
+#char-name{
+    font-size:12px;
+}
+.description{
+    padding-top:30px;
+    color:rgb(255, 255, 255);
+    background-color: rgba(69, 83, 87, 0.795);
+    border-radius: 30px;
+    text-align: justify;
+}
+@media (max-width:500px){
+    .description{
+     font-size:10px;
+
+    }
+}
+.col{
+    color:white;
+}
